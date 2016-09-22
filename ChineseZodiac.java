@@ -7,15 +7,15 @@ public class ChineseZodiac {
   
   System.out.print("Enter a year: ");
   int year = input.nextInt();
-  
+  for ( int i = 0; i < 3; i++)
   switch (year % 12) {
-   case 0: System.out.println("Monkey"); break;
-   case 1: System.out.println("rooster"); break;
-   case 2: System.out.println("dog"); break;
-   case 3: System.out.println("pig"); break;
-   case 4: System.out.println("rat"); break;
-   case 5: System.out.println("ox"); break;
-   case 6: System.out.println("tiger"); break;
+   case 0: System.out.println("Monkey"); 
+   case 1: System.out.println("rooster"); 
+   case 2: System.out.println("dog"); 
+   case 3: System.out.println("pig");
+   case 4: System.out.println("rat"); 
+   case 5: System.out.println("ox"); 
+   case 6: System.out.println("tiger"); 
    case 7: System.out.println("rabbit"); break;
    case 8: System.out.println("dragon"); break;
    case 9: System.out.println("snake"); break;
